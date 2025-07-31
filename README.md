@@ -35,6 +35,7 @@ pip install -r requirements.txt
 
 4. RUn the App
 
-```streamlit run main.py
+```bash
+streamlit run main.py
 
 ```
