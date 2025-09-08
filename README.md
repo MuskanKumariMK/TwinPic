@@ -2,13 +2,27 @@
 
 # TwinPic: Duplicate Image Finder & Deleter
 
-A simple Streamlit app to find and delete duplicate images from any folder, including subfolders.
 
-## Features
+TwinPic is a **Streamlit-powered web application** that scans a folder, identifies duplicate images using **MD5 hashing**, and allows you to delete them easily.  
+This helps in keeping your photo library clean and organized.
 
-- Scan a folder for image duplicates
-- Preview all duplicates
-- Delete selected duplicates directly from UI
+---
+
+## ✨ Features
+- 📂 Scan any folder and its subfolders for image files.
+- 🔑 Generate unique **MD5 hash** for each image to detect duplicates.
+- 🖼️ Display duplicate images side by side for comparison.
+- 🗑️ Delete unwanted duplicate images directly from the UI.
+- ⚡ Simple, fast, and lightweight app with an interactive **Streamlit interface**.
+
+---
+
+## 🛠️ Tech Stack
+- **Python**  
+- **Streamlit** – for building the interactive UI  
+- **Pillow (PIL)** – for image handling  
+- **Hashlib** – for generating MD5 hashes  
+- **OS / Pathlib** – for file system operations  
 
 ---
 
